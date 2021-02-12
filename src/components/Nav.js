@@ -18,14 +18,7 @@ export default function Nav() {
                     <NavLink 
                         activeClassName="text-white bg-blue-900"
                         className="inline-flex items-center py-3 py-x my-6 rounded text-blue-200 hover:text-yellow-500"
-                        to='post'
-                    >
-                        Updates
-                    </NavLink>
-                    <NavLink 
-                        activeClassName="text-white bg-blue-900"
-                        className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-yellow-500"
-                        to="/projects"
+                        to='/projects'
                     >
                         Projects
                     </NavLink>
